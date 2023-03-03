@@ -1,0 +1,25 @@
+body{
+    background-color: #000;
+    font-size: 40px;
+    font-family: 'Climate Crisis', cursive;
+}
+
+.text{
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    margin: 400px;
+}
+
+.gap{
+    letter-spacing: 150px;
+}
+.clr:hover{
+    color: greenyellow;
+    transition: all 0.5s;
+}
+
+.flex::hover{
+    transform:translate3d(1,1,5,1, 40deg)  /*rotate3d(1, 55, 1, 20deg);*/
+}
+
